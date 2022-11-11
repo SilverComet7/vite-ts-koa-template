@@ -69,6 +69,8 @@
     "typescript": "^4.5.2",
     "vite": "^2.6.14",
     "vue": "^3.2.22",
+    "pinia": "^2.0.9",
+    "pinia-plugin-persist": "^0.0.93",
     "vue-router": "^4.0.12",
     "vue-tsc": "^0.29.6",
     "vite-plugin-checker": "^0.4.6",
