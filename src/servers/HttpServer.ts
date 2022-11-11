@@ -25,6 +25,7 @@ export class HttpServer {
 
   public startServer() {
     const appWeb = createKoaServer({
+      cors: true,
       development: this.isDev,
       routePrefix: '',
       controllers: [`${__dirname}/../controller/**/*.*s`],
