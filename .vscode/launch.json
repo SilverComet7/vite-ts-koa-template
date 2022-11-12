@@ -1,5 +1,5 @@
 {
-  // 使用 IntelliSense 了解相关属性。 
+  // 使用 IntelliSense 了解相关属性。
   // 悬停以查看现有属性的描述。
   // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
@@ -8,36 +8,14 @@
       "name": "server",
       "type": "pwa-node",
       "request": "launch",
-      "runtimeArgs": [
-        "--nolazy",
-        "-r",
-        "ts-node/register"
-      ],
-      "args": [
-        "${workspaceFolder}/src/server.ts"
-      ],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "args": ["${workspaceFolder}/server/server.ts"],
       "skipFiles": [
-        "${workspaceFolder}/node_modules/**/*.js",
+        // "${workspaceFolder}/node_modules/**/*.js",
         "<node_internals>/**"
       ],
       "cwd": "${workspaceFolder}",
-      "outFiles": [
-        "${workspaceFolder}/**/*.js"
-      ],
-    },
-    {
-      "name": "server-attach",
-      "type": "pwa-node",
-      "request": "attach",
-      "port": 24680,
-      "localRoot": "${workspaceFolder}/src",
-      "sourceMaps": true,
-      "restart": true,
-      "timeout": 100000,
-      "skipFiles": [
-        "${workspaceFolder}/node_modules/**/*.js",
-        "<node_internals>/**"
-      ],
-    },
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+    }
   ]
 }

@@ -1,2 +1,0 @@
-import './elementPlus';
-import '../router';

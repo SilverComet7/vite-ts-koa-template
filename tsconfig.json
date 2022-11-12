@@ -15,8 +15,8 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
-    "exactOptionalPropertyTypes": true,
+    "exactOptionalPropertyTypes": true
   },
-  "include": ["src"],
-  "exclude": ["vite.config.ts", "view"]
+  "include": ["."],
+  "exclude": []
 }

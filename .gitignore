@@ -8,5 +8,6 @@ dist-ssr
 
 logs
 
-.env
 *.local
+
+http
